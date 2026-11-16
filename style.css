@@ -1,0 +1,366 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Company Logo */
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+/* Company Name */
+header h1 {
+    color: #0077c8;
+    font-size: 32px;
+    margin: 10px;
+}
+
+/* Company Slogan */
+header p {
+    color: #555555;
+    font-size: 16px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0077c8;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+/* Navigation Hover Effect */
+nav a:hover {
+    background-color: #005a99;
+}
+
+/* Main Content */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #e1f0fc;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Section Headings */
+main h2 {
+    color: #0077c8;
+}
+
+/* Paragraph Styling */
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #003b64;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Hero Banner */
+.hero {
+    background-color: #dceeff;
+    text-align: center;
+    padding: 60px 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.hero h2 {
+    color: #003b64;
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Hero Button */
+.hero-button {
+    display: inline-block;
+    background-color: #0077c8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero-button:hover {
+    background-color: #005a99;
+}
+
+
+
+/* Featured Products */
+.featured {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #f4f7fb;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+}
+
+.product-card h3 {
+    color: #0077c8;
+}
+
+.product-card p {
+    font-size: 14px;
+}
+
+
+
+/* About Us Introduction */
+.about-intro {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Mission and Vision */
+.mission-vision {
+    background-color: #e1f0fc;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Management Team Section */
+.management {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Management Table */
+.team-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Borders and Spacing */
+.team-table th,
+.team-table td {
+    border: 1px solid #0077c8;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Heading */
+.team-table th {
+    background-color: #0077c8;
+    color: white;
+}
+
+/* Table Rows */
+.team-table tr:nth-child(even) {
+    background-color: #e1f0fc;
+}
+
+/* Team Note */
+.team-note {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 15px;
+}
+
+
+
+/* Management Table */
+.team-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Add borders to every table cell */
+.team-table th,
+.team-table td {
+    border: 2px solid #0077c8;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Table Header */
+.team-table th {
+    background-color: #0077c8;
+    color: white;
+}
+
+/* Table Body */
+.team-table td {
+    background-color: white;
+}
+
+/* Alternate Row Colour */
+.team-table tr:nth-child(even) td {
+    background-color: #e1f0fc;
+}
+
+
+
+
+/* Products Introduction */
+.products-intro {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Products Gallery */
+.products-gallery {
+    background-color: #e1f0fc;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Product Cards */
+.products-gallery .product-card {
+    border: 1px solid #c5dff2;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Images */
+.products-gallery .product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* Product Headings */
+.products-gallery .product-card h3 {
+    color: #0077c8;
+}
+
+
+
+
+/* Contact Us Introduction */
+.contact-intro {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Contact Details Section */
+.contact-details {
+    background-color: #e1f0fc;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Contact Information Table */
+.contact-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Borders */
+.contact-table th,
+.contact-table td {
+    border: 2px solid #0077c8;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Table Heading */
+.contact-table th {
+    background-color: #0077c8;
+    color: white;
+}
+
+/* Alternate Row Colour */
+.contact-table tr:nth-child(even) td {
+    background-color: white;
+}
+
+/* Email and Website Links */
+.contact-table a {
+    color: #0077c8;
+    text-decoration: none;
+}
+
+.contact-table a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Message */
+.contact-message {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
